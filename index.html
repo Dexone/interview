@@ -10,7 +10,8 @@
             font-size: 20px;
         }
 
-        p, pre {
+        p,
+        pre {
             font-family: monospace;
             font-size: 14px;
         }
@@ -71,6 +72,19 @@
 
     </blockquote>
 
+
+
+    <script>
+        function f1() {
+            let a = 3
+            return function () {
+                let b = a + 4
+                console.log(b)
+            }
+        }
+        let ff = f1()
+        ff() 
+    </script>
 </body>
 
 </html>
